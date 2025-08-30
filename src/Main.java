@@ -2,6 +2,8 @@ import static estudo_090825.Recursividade.*;
 
 import estudo_150825.Vetor;
 import estudo_150825.Vetor.*;
+import estudo_300825.ListaDinamica;
+import estudo_300825.ListaEstatica;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,9 +27,23 @@ public class Main {
 //        novoVetor.newAddElement("3", 3); //agora, após melhorar esse métodos, se eu passar do tamanho do vetor, ao invés de nada acontecer, vai dar uma mensagem de erro.
 //        novoVetor.newAddElement("4", 4); //aqui vai dar uma mensagem de erro.
 
-
-
-
-
+        ////// LISTA ENCADEADA E DINÂMICAS 30/08/25:
+//        ListaDinamica novaLista = new ListaDinamica();
+//        novaLista.adicionarFim(1);
+//        novaLista.adicionarFim(2);
+//        novaLista.adicionarFim(3);
+//        novaLista.adicionarFim(4);
+//        novaLista.excluirUltimo();
+//        novaLista.imprimirLista();
+//
+//        ListaEstatica novaListaE = new ListaEstatica(5);
+//        novaListaE.adicionarElemento(88);
+//        novaListaE.adicionarElemento(9);
+//        novaListaE.adicionarElemento(975);
+//        novaListaE.adicionarElemento(75);
+//        novaListaE.excluirUltimo();
+//        novaListaE.imprimirLista();
+//        novaListaE.incluirElemento(11,1);
+//        novaListaE.imprimirLista();
     }
 }

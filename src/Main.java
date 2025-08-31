@@ -3,7 +3,11 @@ import static estudo_090825.Recursividade.*;
 import estudo_150825.Vetor;
 import estudo_150825.Vetor.*;
 import estudo_300825.ListaDinamica;
+import estudo_300825.ListaDuplamenteEncadeada;
 import estudo_300825.ListaEstatica;
+import estudo_300825.Nodo;
+
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,16 +38,28 @@ public class Main {
 //        novaLista.adicionarFim(3);
 //        novaLista.adicionarFim(4);
 //        novaLista.excluirUltimo();
+//        novaLista.adicionarInicio(23);
+//        novaLista.adicionarInicio(56);
 //        novaLista.imprimirLista();
-//
+
+
 //        ListaEstatica novaListaE = new ListaEstatica(5);
 //        novaListaE.adicionarElemento(88);
 //        novaListaE.adicionarElemento(9);
 //        novaListaE.adicionarElemento(975);
 //        novaListaE.adicionarElemento(75);
-//        novaListaE.excluirUltimo();
-//        novaListaE.imprimirLista();
-//        novaListaE.incluirElemento(11,1);
-//        novaListaE.imprimirLista();
+//        novaListaE.buscarElemento(9);
+
+//        ListaDuplamenteEncadeada novaListaDE = new ListaDuplamenteEncadeada();
+//        novaListaDE.addUltimo(2);
+//        novaListaDE.addUltimo(3);
+//        novaListaDE.addUltimo(43);
+//        novaListaDE.addUltimo(4);
+//        novaListaDE.addPrimeiro(87);
+//        novaListaDE.addPrimeiro(211);
+//        novaListaDE.removerUltimo();
+//        novaListaDE.imprimirLista();
+
+
     }
 }

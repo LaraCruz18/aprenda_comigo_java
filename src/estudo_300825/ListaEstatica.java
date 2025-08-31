@@ -50,4 +50,26 @@ public class ListaEstatica {
 
         }
     }
+
+
+    //Questão 1 – Lista Estática
+    //
+    //Enunciado:
+    //Dada a classe ListaEstatica, implemente um métodos buscarElemento(int elemento) que retorne a posição do elemento na lista ou -1 caso não esteja presente.
+    //
+    //Exercício de lógica:
+    //O aluno deve percorrer o array elementos até num_elementos.
+    //Comparar cada elemento com o valor buscado.
+
+    public void buscarElemento(int elemento){
+        int posicao = 0;
+        if(num_elementos != 0){
+            for (int i = 0; i < num_elementos; i++) {
+                if(elemento == elementos[i]){
+                    System.out.println(i);
+                    break;
+                }
+            }
+        }
+    }
 }

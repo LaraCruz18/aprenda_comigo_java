@@ -8,7 +8,7 @@ public class Recursividade {
         }
         System.out.println(n);//imprimindo de trás para frente.
         num(n - 1);
-        System.out.println(n);//imprimindo de frente para trás.
+//        System.out.println(n);//imprimindo de frente para trás.
         //A ORDEM IMPORTA, ANTES OU DEPOIS DO CASO RECURSIVO, VAI SER DIFERENTE.
     }
 
@@ -26,10 +26,19 @@ public class Recursividade {
         // 3 * ( 2 * ( 1 * 1 ) ) = 3 * ( 2 * 1 ) = 3 * 2 = 6.
     }
 
-        public static int soma(int n) { //aqui vai retornar a soma dos números de 0 a n.
+    public static int soma(int n) { //aqui vai retornar a soma dos números de 0 a n.
         if (n == 1) { //nesse caso, o caso base será com 1 por causa da soma. Colocar zero aqui, seria mais trabalho, já que a soma cabaria no 1.
             return 1;
         }
         return n + soma(n - 1); // sendo n = 4: 4 + (3 + (2 + 1)). Agora resolvendo de dentro para fora: 2 + 1 = 3 + 3 + 4 = 10.
     }
+
+    public int potencia(int base, int expoente){
+            if(expoente == 0){
+                return 1;
+            }
+            return base * potencia(base, expoente - 1);
+    }
+
+
 }

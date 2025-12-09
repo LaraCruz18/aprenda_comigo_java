@@ -2,6 +2,8 @@ import static estudo_090825.Recursividade.*;
 
 import estudo_150825.Vetor;
 import estudo_150825.Vetor.*;
+import estudo_171025.Fila;
+import estudo_171025.Pilha;
 import estudo_190925.PilhaDinamica;
 import estudo_190925.PilhaEstatica;
 import estudo_300825.ListaDinamica;
@@ -76,7 +78,7 @@ public class Main {
 //        System.out.println(pilhaEstatica.soma());
 //        System.out.println(pilhaEstatica.maiorElem());
 //        System.out.println(pilhaEstatica.qntPares());
-        System.out.println(pilhaEstatica.expCorreta("[a+b] * (b*c)"));
+//        System.out.println(pilhaEstatica.expCorreta("[a+b] * (b*c)"));
 
 
 //        PilhaDinamica pilhaDinamica = new PilhaDinamica();
@@ -85,5 +87,23 @@ public class Main {
 //        pilhaDinamica.push(6);
 //        pilhaDinamica.pop();
 //        pilhaDinamica.imprimirLista();
+
+        ////// PILHA E FILAS 17/10/25:
+//        Fila fila = new Fila(5);
+//        fila.push(3);
+//        fila.push(2);
+//        fila.push(45);
+//        fila.pop();
+//        fila.imprimir();
+//
+//        Pilha pilha = new Pilha(5);
+//        pilha.push(7);
+//        pilha.push(17);
+//        pilha.push(78);
+//        pilha.push(755);
+//        pilha.push(55);
+//        pilha.push(55);
+//        pilha.imprimir();
+
     }
 }

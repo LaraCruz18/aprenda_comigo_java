@@ -5,32 +5,32 @@ import java.util.Locale;
 
 public class Print {
     public static void main(String[] args) {
-//        //formas de print
-//        System.out.println("Bom dia"); //com quebra de linha
-//
-//        System.out.print("Lara"); //sem quebra de linha
-//
-//        System.out.printf("%.2f", 35.88888); //para limitar a quantidade de casas decimais. "%.2(significa que quero duas casas depois da vírgula)f%n(significa a quebra de linha)"
-//        //obs: nota-se que vai constar "61,68" no console, pois arredonda.
-//
-//        Locale.setDefault(Locale.US); //para printar o número decimal com "." ao invés de vírgula.
-//        System.out.printf("%.2f", 685.455);
-//        //obs://é preciso colocar antes da linha que eu quero mudar a vírgula por ponto.
-//
-//
-//        System.out.println("Olá, meu nome é Lara e tenho " + 22 + " anos"); //concatenação comum usando "+"
-//
-//        System.out.printf("Olá, meu nome é Lara e eu tenho %.3f na minha conta, mas tenho apenas %d anos %n", 355.4685466,22); //usando %f e %d para representar os números.
-//        //obs: %d -> numeros inteiros (int, long e short)
-//        //%s -> para strings
-//        //%f -> ponto flutuante
-//        //%n -> quebra de linha
-//
-//        //exemplo:
-//        String nome = "Maria";
-//        int idade = 34;
-//        double renda = 4000.0;
-//        System.out.printf("%s tem %d anos e ganha $%.2f reais", nome,idade,renda);
+        //formas de print
+        System.out.println("Bom dia"); //com quebra de linha
+
+        System.out.print("Lara"); //sem quebra de linha
+
+        System.out.printf("%.2f", 35.88888); //para limitar a quantidade de casas decimais. "%.2(significa que quero duas casas depois da vírgula)f%n(significa a quebra de linha)"
+        //obs: nota-se que vai constar "61,68" no console, pois arredonda.
+
+        Locale.setDefault(Locale.US); //para printar o número decimal com "." ao invés de vírgula.
+        System.out.printf("%.2f", 685.455);
+        //obs://é preciso colocar antes da linha que eu quero mudar a vírgula por ponto.
+
+
+        System.out.println("Olá, meu nome é Lara e tenho " + 22 + " anos"); //concatenação comum usando "+"
+
+        System.out.printf("Olá, meu nome é Lara e eu tenho %.3f na minha conta, mas tenho apenas %d anos %n", 355.4685466,22); //usando %f e %d para representar os números.
+        //obs: %d -> numeros inteiros (int, long e short)
+        //%s -> para strings
+        //%f -> ponto flutuante
+        //%n -> quebra de linha
+
+        //exemplo:
+        String nome = "Maria";
+        int idade = 34;
+        double renda = 4000.0;
+        System.out.printf("%s tem %d anos e ganha $%.2f reais", nome,idade,renda);
 
         //EXERCÍCIO DE FIXAÇÃO
         String product1 = "Computer";
